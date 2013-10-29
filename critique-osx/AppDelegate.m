@@ -9,10 +9,9 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
-}
-
+    NSURL*        url     = [NSURL URLWithString:@"http://critiqueapp.com"];
+    NSURLRequest* request = [NSURLRequest requestWithURL:url];
+    [[self.webView mainFrame] loadRequest:request]; }
 @end

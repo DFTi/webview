@@ -18,6 +18,7 @@
 		3EE6F8C618204EA0008859AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6F8A518204EA0008859AA /* Cocoa.framework */; };
 		3EE6F8CE18204EA0008859AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6F8CC18204EA0008859AA /* InfoPlist.strings */; };
 		3EE6F8D018204EA0008859AA /* critique_osxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6F8CF18204EA0008859AA /* critique_osxTests.m */; };
+		3EE6F8DD182050E8008859AA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6F8DC182050E8008859AA /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		3EE6F8CB18204EA0008859AA /* critique-osxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "critique-osxTests-Info.plist"; sourceTree = "<group>"; };
 		3EE6F8CD18204EA0008859AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3EE6F8CF18204EA0008859AA /* critique_osxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = critique_osxTests.m; sourceTree = "<group>"; };
+		3EE6F8DC182050E8008859AA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../../../System/Library/Frameworks/WebKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE6F8DD182050E8008859AA /* WebKit.framework in Frameworks */,
 				3EE6F8A618204EA0008859AA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		3EE6F8A418204EA0008859AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EE6F8DC182050E8008859AA /* WebKit.framework */,
 				3EE6F8A518204EA0008859AA /* Cocoa.framework */,
 				3EE6F8C418204EA0008859AA /* XCTest.framework */,
 				3EE6F8A718204EA0008859AA /* Other Frameworks */,
